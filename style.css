@@ -1,0 +1,22 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  font-family: Helvetica;
+  text-align: center;
+}
+
+header {
+  background: lightgray;
+  height: 70px;
+}
+
+.spaceBlock {
+  margin: 10px 0px;
+}
+
+.navForm {
+  padding-top: 25px;
+}
