@@ -24,9 +24,16 @@ option {
 }
 
 .product {
-
+  border: .5px solid darkslategray;
+  margin: 1em;
+  padding: 4px;
+  display: inline-block;
 }
 
 .small {
 
+}
+
+.storefront {
+  display: flex;
 }

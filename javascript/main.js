@@ -14,9 +14,7 @@ productLoad.addEventListener("load", function () {
   var productContainer = document.getElementById("storefront");
 
   for (var i = 0; i < products.length; i++) {
-    productContainer.innerHTML += `<p class="image">${products[i].jpg}</p>`;
-    productContainer.innerHTML += `<p class="product">${products[i].name} ${products[i].price}</p>`;
-
+    productContainer.innerHTML += `<div class='product'><img src="${products[i].jpg}" alt="" class="block"><div class="inline">${products[i].name} $${products[i].price}</div></div>`;
   }
 
 
