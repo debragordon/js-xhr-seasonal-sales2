@@ -4,70 +4,70 @@
       "id": 0,
       "name": "Kids socks",
       "price": 4.99,
-      "jpg": "images/k-socks.jpg",
+      "jpg": "https://github.com/debragordon/js-xhr-seasonal-sales2/blob/master/images/k-socks.jpg",
       "category_id": 1
     },
     {
       "id": 1,
       "name": "Mens socks",
       "price": 6.99,
-      "jpg": "images/m-socks.jpg",
+      "jpg": "https://github.com/debragordon/js-xhr-seasonal-sales2/blob/master/images/m-socks.jpg",
       "category_id": 1
     },
     {
       "id": 2,
       "name": "Ladies socks",
       "price": 7.99,
-      "jpg": "images/w-socks.jpg",
+      "jpg": "https://github.com/debragordon/js-xhr-seasonal-sales2/blob/master/images/w-socks.jpg",
       "category_id": 1
     },
     {
       "id": 3,
       "name": "Foot stool",
       "price": 14.99,
-      "jpg": "images/foot-stool.jpg",
+      "jpg": "https://github.com/debragordon/js-xhr-seasonal-sales2/blob/master/images/foot-stool.jpg",
       "category_id": 2
     },
     {
       "id": 4,
       "name": "Lava lamp",
       "price": 9.99,
-      "jpg": "images/lava-lamp.jpg",
+      "jpg": "https://github.com/debragordon/js-xhr-seasonal-sales2/blob/master/images/lava-lamp.jpg",
       "category_id": 2
     },
     {
       "id": 5,
       "name": "3 drawer dresser",
       "price": 64.99,
-      "jpg": "images/3d-dresser.jpg",
+      "jpg": "https://github.com/debragordon/js-xhr-seasonal-sales2/blob/master/images/3d-dresser.jpg",
       "category_id": 2
     },
     {
       "id": 6,
       "name": "Air filter",
       "price": 6.99,
-      "jpg": "images/air-filter.jpg",
+      "jpg": "https://github.com/debragordon/js-xhr-seasonal-sales2/blob/master/images/air-filter.jpg",
       "category_id": 3
     },
     {
       "id": 7,
       "name": "Surge protector",
       "price": 8.99,
-      "jpg": "images/surge-protector.jpg",
+      "jpg": "https://github.com/debragordon/js-xhr-seasonal-sales2/blob/master/images/surge-protector.jpg",
       "category_id": 3
     },
     {
       "id": 8,
       "name": "Plastic storage bin",
       "price": 3.99,
-      "jpg": "images/storage-bin.jpg",
+      "jpg": "https://github.com/debragordon/js-xhr-seasonal-sales2/blob/master/images/storage-bin.jpg",
       "category_id": 3
     },
     {
       "id": 9,
       "name": "Light bulb",
       "price": 1.99,
-      "jpg": "images/light-bulb.jpg",
+      "jpg": "https://github.com/debragordon/js-xhr-seasonal-sales2/blob/master/images/light-bulb.jpg",
       "category_id": 3
     }
   ]
