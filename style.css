@@ -30,10 +30,16 @@ option {
   display: inline-block;
 }
 
-.small {
-
-}
-
 .storefront {
   display: flex;
+}
+
+.currentPrice {
+  font-size: .75em;
+}
+
+.salePrice {
+  font-size: 1.25em;
+  color: red;
+  font-weight: bolder;
 }
