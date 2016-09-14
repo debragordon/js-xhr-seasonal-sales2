@@ -6,6 +6,7 @@
 body {
   font-family: Helvetica;
   text-align: center;
+  color: darkslategray;
 }
 
 header {
@@ -13,6 +14,23 @@ header {
   height: 70px;
 }
 
+.top {
+  padding: 10px 0 0 0;
+}
+
+option {
+  color: darkslategray;
+  font-size: 1em;
+}
+
+.product {
+
+}
+
+.small {
+
+}
+/*
 .spaceBlock {
   margin: 10px 0px;
 }
@@ -20,3 +38,15 @@ header {
 .navForm {
   padding-top: 25px;
 }
+
+.button {
+    background-color: darkslategray;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+}
+*/

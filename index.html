@@ -5,14 +5,17 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header id="header" class="">
-    <form class="navForm">
-      <input type="search" name="clothing" placeholder="search for deals" id="deal-search">
-      <input type="submit" id="deal-button">
-    </form>
-  </header><!-- /header -->
-  <h1 class="spaceBlock">SEASONAL SALES</h1>
-
+  <header id="header" class="top">
+    <h2>Seasonal Sales</h2>
+    <select id="season-discount-select">
+      <option value="select" id="select" class="discounts" selected >Choose A Season</option>
+      <option value="Autumn" id="autumn" class="discounts">Autumn Discounts</option>
+      <option value="Winter" id="winter" class="discounts">Winter Discounts</option>
+      <option value="Spring" id="spring" class="discounts">Spring Discounts</option>
+    </select>
+  </header>
+  <div id="storefront"><!-- PRODUCTS GO HERE --></div>
+  <script src="discount.js" type="text/javascript" charset="utf-8" async defer></script>
   <script src="main.js" type="text/javascript" charset="utf-8" async defer></script>
 </body>
 </html>

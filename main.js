@@ -1,7 +1,23 @@
-// // alert("this works!");
+//loads the products
+var productLoad = new XMLHttpRequest();
+productLoad.open("GET", "products.json");
+productLoad.send();
+productLoad.addEventListener("load", callCategories);
+productLoad.addEventListener("error", Discounts.jsonError);
 
-// Your job is to build a web page that lists all of the products, the name of the department it's in, and the price. Additionally, put a <select> element at the top of the page that contains all possible values of the season_discount key in the categories file. As soon as you select one of the seasons, all prices on the page should immediately be discounted by the corresponding percentage.
+//categorizes products
+var categoryLoad = new XMLHttpRequest();
+function callCategories() {
+  categoryLoad.open("GET", "categories.json");
+  categoryLoad.send();
+  categoryLoad.addEventListener("load", Discounts.parseProducts);
+  categoryLoad.addEventListener("error", Discounts.jsonError);
+}
 
-// For example, when Spring is chosen, all products in the corresponding Household category should have their prices updated with a 15% discount off the base price.
+//grabs product div
+var productsOnSale = document.getElementById("storefront");
 
-// The two JSON representations above should be in two files: products.json, and categories.json. You should load both file via XHRs and store the contents in two different JavaScript variables in your code.
+//grabs shoper's selection
+var seasonDiscountselector = document.getElementById("season-discount-select");
+
+seasonDiscountselector.addEventListener("change", Discounts.applyDiscount);
