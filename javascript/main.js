@@ -10,7 +10,7 @@ productLoad.addEventListener("load", function () {
   products = data.products;
   var productContainer = document.getElementById("storefront");
   for (var i = 0; i < products.length; i++) {
-    productContainer.innerHTML += `<div class='product'><img src="${products[i].jpg}" alt="" class="block"><div class="inline">${products[i].name} <p class="currentPrice">Current Price $${products[i].reg_price}</p></div></div>`;
+    productContainer.innerHTML += `<div class='product'><img src="${products[i].jpg}" alt="" class="block"><div class="inline">${products[i].name} <p class="currentPrice">Current Price $${products[i].price}</p></div></div>`;
   }
 });
 
@@ -40,6 +40,8 @@ var autumnDeals = [];
 var springDeals = [];
 
 ///////////////// I am stuck here /////////////////
+// I know i need to match the product and it's ID with the categories and then only show that in the DOM.  I think I need to loop through the functions and use an if statement to decide if the categories are true and then use that certainty to write to categorize the products
+
 
 //click events to dynamically display the correct deals ... including swapping out the price
 function listClicker(){
