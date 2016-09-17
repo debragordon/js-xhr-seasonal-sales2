@@ -1,7 +1,7 @@
 # NSS Exercise | XHR / Seasonal Sales
 
 ##Sneak Preview
-![Site Screenshot](https://raw.githubusercontent.com/debragordon/js-el-dynamic-cards/master/screenshots/seasonal-sales.preview.png)
+![Site Screenshot](https://raw.githubusercontent.com/debragordon/js-xhr-seasonal-sales2/master/screenshots/seasonal-sales-preview.png)
 
 ## Description
 This is a web page that lists all of the products, the name of the department it's in, and the price.  It utilizes JSON, XHR, event listeners, and DOM manipulation.
