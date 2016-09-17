@@ -29,15 +29,16 @@ function domWriter (discountedSeason) {
   // console.log(currentlyDiscountedSeason);
   var productDetails = "";
     for (var i=0; i<products.length; i++){
-      productDetails += `<div class='product'><p>${products[i].name}</p>`;
+      productDetails += `<div class='product'><p class="mainName">${products[i].name}</p>`;
       productDetails += `<img src='${products[i].jpg}' class='block'>`;
-      productDetails += `<p class='info'>${discounts[products[i].category_id - 1].name}</p>`;
         if (currentlyDiscountedSeason && products[i].category_id === currentlyDiscountedSeason.id) {
           var salePriceToShow = products[i].price-(products[i].price*currentlyDiscountedSeason.discount);
-          productDetails += `<p class='salePrice'>${currentlyDiscountedSeason.season_discount} Sale $${Math.round(salePriceToShow*100)/100}</p></div>`;
+          productDetails += `<p class='salePrice'>${currentlyDiscountedSeason.season_discount} Sale $${Math.round(salePriceToShow*100)/100}</p>`;
         } else {
-            productDetails += `<p class='currentPrice'>$${products[i].price}</p></div>`;
+            productDetails += `<p>$${products[i].price}</p>`;
         }
+      productDetails += `<p class='info'>Department: ${discounts[products[i].category_id - 1].name}</p></div>`;
+
     };
     output.innerHTML = productDetails;
 }
